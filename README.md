@@ -10,16 +10,20 @@ to dynamically manage Traffic Lights.
 Requirements
 
 1.	Python is the basic requirement. Python should be installed on system and running. If you have GPU run the requirement file for GPU.
+
 i.	TensorFlow CPU - pip install -r requirements.txt
+
 ii.	TensorFlow GPU - pip install -r requirements-gpu.txt
 
 2. For Running in Anaconda :
 (i)Tensorflow CPU
 conda env create -f conda-cpu.yml
+
 conda activate tracker-cpu
 
 (ii)Tensorflow GPU
 conda env create -f conda-gpu.yml
+
 conda activate tracker-gpu
 
 3.	Nvidia Driver (For GPU, if you haven't set it up already)
