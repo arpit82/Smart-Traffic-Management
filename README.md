@@ -33,7 +33,8 @@ own model weights . Add them in the weights folder and remove already present we
 (i)	 For Linux: Let's download official yolov3 weights pretrained on COCO dataset. 
     wget https://pjreddie.com/media/files/yolov3.weights -O weights/yolov3.weights
 
-(ii)	For Windows: You can download the yolov3 weights here:    https://pjreddie.com/media/files/yolov3.weights then save them to the weights folder.
+(ii)For Windows: You can download the yolov3 weights here:    https://pjreddie.com/media/files/yolov3.weights then save them to the weights folder.
+
 5. Saving your yolov3 weights as a TensorFlow model.Load the weights using `load_weights.py` script. This will convert the yolov3 weights into TensorFlow .tf model files. Execute python load_weights.py command on cmd in the folder containing load_weights.py file, you should see proper .tf files in your weights folder. You are now ready to run the application.
 
 6. Change the paths of various files and folders in all the python files according to your system.
